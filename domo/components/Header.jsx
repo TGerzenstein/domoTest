@@ -16,7 +16,7 @@ function Header() {
                 <Navbar.Brand href="#home">compleet labs</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                  <Nav className="me-auto">
+                  <Nav className="ms-auto">
                     <Nav.Link href="#home">Home</Nav.Link>
                     <Nav.Link href="#link">Services</Nav.Link>
                     <Nav.Link href="#link">Technology</Nav.Link>
@@ -28,33 +28,19 @@ function Header() {
               </Container>
             </Navbar>
 
-          <div>
-            <div className="d-flex justify-content-end">
-                  <Image
-                  src={background}
-                  alt='Default image'
-                  style={{
-                    width: '780px',
-                    height: '100%',
-                  }}
-                  className="img-fluid image-core"
-                  />
-            </div>
-          </div>
-
-          <div>
-            <div>
+          <div className='hero-image-company'>
+            <div className='container'>
               <div className="text-overlay">
-              <h1 className="main-title">We build beautiful and reliable web solutions</h1>
-              <p className="description-overlay py-2">We strongly believe that communication trust and transparency
-                are the essential elements of successful business relationship.
-                Ready for the journey?
-              </p>
-              <div>
-                <button type="button" className="btn btn-outline-secondary me-3 rounded-1 btn-main">Learn more</button>
-                <button type="button" className="btn btn-outline-primary rounded-1 btn-main">Our projects</button>
-              </div>
-            </div> 
+                <h1 className="main-title">We build beautiful and reliable web solutions</h1>
+                <p className="description-overlay py-2">We strongly believe that communication trust and transparency
+                  are the essential elements of successful business relationship.
+                  Ready for the journey?
+                </p>
+                <div>
+                  <button type="button" className="btn btn-outline-secondary me-3 rounded-1 btn-main px-4">Learn more</button>
+                  <button type="button" className="btn btn-primary rounded-1 btn-main px-4">Our projects</button>
+                </div>
+              </div> 
             </div>
           </div>
 
@@ -68,41 +54,41 @@ function Header() {
           <div className="container d-flex justify-content-center">
             <div className="row">           
               <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-4">
-                <div class="card rounded-0">
+                <div class="card rounded-0 px-4">
                   <div class="card-body">
                     <h5 class="card-title text-center">Business and Product Concept</h5>
-                    <p class="card-text text-center">Some quick example text to build 
+                    <p class="card-text text-center pb-3 pt-2">Some quick example text to build 
                     on the card title and make up the bulk of the cards content.
                     Some quick example text to build 
                     on the card title and make up the bulk of the cards content.</p>
                     <div className="text-center">
-                      <a href="#" className="btn btn-outline-secondary b-text rounded-1">Learn more</a>
+                      <a href="#" className="btn btn-outline-secondary b-text rounded-1 px-4">Learn more</a>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-4">
-                <div class="card rounded-0">
+                <div class="card rounded-0 px-4">
                   <div class="card-body">
                     <h5 class="card-title text-center">Web and Mobile Development</h5>
-                    <p class="card-text text-center">Some quick example text to build on the card title 
+                    <p class="card-text text-center pb-3 pt-2">Some quick example text to build on the card title 
                     and make up the bulk of the cards content. Some quick example text to build on the card title 
                     and make up the bulk of the cards content.</p>
                     <div className="text-center">
-                      <a href="#" className="btn btn-outline-secondary b-text rounded-1">Learn more</a>
+                      <a href="#" className="btn btn-outline-secondary b-text rounded-1 px-4">Learn more</a>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-4">
-                <div class="card rounded-0">
+                <div class="card rounded-0 px-4">
                   <div class="card-body">
                     <h5 class="card-title text-center">UX and UI Design products innovative</h5>
-                    <p class="card-text text-center">Some quick example text to build on 
+                    <p class="card-text text-center pb-3 pt-2">Some quick example text to build on 
                     the card title and make up the bulk of the cards content. Some quick example text to build on the card title 
                     and make up the bulk of the cards content.</p>
                     <div className="text-center">
-                      <a href="#" className="btn btn-outline-secondary b-text rounded-1">Learn more</a>
+                      <a href="#" className="btn btn-outline-secondary b-text rounded-1 px-4">Learn more</a>
                     </div>
                   </div>
                 </div>

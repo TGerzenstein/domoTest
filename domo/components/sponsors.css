@@ -1,10 +1,15 @@
 .sponsors{
-    min-height: 50vh;
     text-transform: uppercase;
     /* display: flex; */
     /* flex-direction: column; */
     text-align: center;
     /* padding-top: 8rem; */
+}
+
+.sponsors-wrapper{
+    margin-top: 80px;
+    width: 100%;
+    margin-bottom: 280px;
 }
 
 .sponsors img {

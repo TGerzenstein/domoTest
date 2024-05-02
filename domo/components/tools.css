@@ -4,6 +4,7 @@
     min-height: 65vh;
     margin: 0px;
     padding-top: 8rem;
+    padding-bottom: 8rem;
 }
 
 .tools-title {
@@ -24,7 +25,8 @@
 .icon-tools {
     color: #ffffff;
     font-size: 4rem;
-    padding-right: 3rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
     width: 90px;
     height: 90px;
 }

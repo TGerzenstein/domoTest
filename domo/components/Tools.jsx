@@ -23,7 +23,7 @@ function Tools() {
            </p>
           </div>
           <div className="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
-            <div className="d-flex flex-column tools-column">
+            <div className="d-flex flex-column tools-column align-items-center">
               <div>
                   <FontAwesomeIcon icon={faHtml5} className='icon-tools'/>
                   <FontAwesomeIcon icon={faCss3Alt} className='icon-tools'/>
