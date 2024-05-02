@@ -16,6 +16,8 @@ header {
 
 .navbar-nav .nav-link.active {
     color: #8e949e;
+    display: flex;
+    justify-content: center;
 }
 
 .navbar-nav .nav-link:hover {
@@ -84,9 +86,30 @@ header {
     border-color: 1px solid #8e949e;
 }
 
-
+/* Media queries */
 
 @media screen and (max-width: 36rem) {
+
+    .navbar-brand {
+        color: #ffffff;
+        font-size: 1rem;
+    }
+
+    .navbar {
+        margin: 0rem auto;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .navbar-nav .nav-link.active {
+        color: #8e949e;
+        font-size: 1rem;
+    }
+
+    .navbar-toggler {
+        color: #8e949e;
+        background-color: #ffffff;
+    }
 
     .image-core {
         display: block;
@@ -99,7 +122,7 @@ header {
         font-weight: 500;
         width: 100%;
         padding: 2rem 0.50rem;
-        transform: translateY(10px);
+        transform: translateY(20px);
         margin: 0rem auto;
     }
     

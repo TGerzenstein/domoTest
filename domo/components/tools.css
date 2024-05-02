@@ -1,7 +1,7 @@
 
 .tools {
     background-color: #3871ff;
-    min-height: 60vh;
+    min-height: 65vh;
     margin: 0px;
     padding-top: 8rem;
 }
@@ -29,6 +29,7 @@
     height: 90px;
 }
 
+/* Media queries */
 
 @media screen and (max-width: 36rem) {
 

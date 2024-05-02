@@ -9,7 +9,7 @@ function Footer() {
                 <div className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                     <h2>complet labs</h2>
                     <p className="footer-text">Our software company specializes 
-                    in developing innovative solutions tailored to meet our clients' 
+                    in developing innovative solutions tailored to meet our clients 
                     unique needs, leveraging cutting-edge technology to streamline 
                     processes and enhance efficiency.
                     </p>
