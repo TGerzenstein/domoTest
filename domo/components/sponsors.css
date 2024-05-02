@@ -15,4 +15,14 @@
     color: #7f7f7f;
     font-size: 12px;
     font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+
+@media screen and (max-width: 36rem) {
+
+    .sponsors img {
+        padding: 0rem 0.50rem;
+    }
 }

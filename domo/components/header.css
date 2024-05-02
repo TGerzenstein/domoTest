@@ -1,0 +1,144 @@
+
+header {
+    background-color: #273345;
+    color: #8e949e;
+}
+
+.navbar {
+    padding: 1rem 20rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link.active {
+    color: #8e949e;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffffff; 
+}
+
+.navbar-brand:hover {
+    color: #ffffff;
+}
+
+.image-core {
+    display: block;
+    position: relative;		
+}
+
+.main-title {
+    color: #ffffff;
+    font-size: 2.30rem;
+    font-weight: 600;
+}
+
+.text-overlay {
+    display: block;
+    position: absolute;
+    bottom: 240px;
+    left: 0;
+    width: 50%;
+    padding-left: 20rem;
+    font-size: 1.10rem;
+    font-weight: 500;
+}
+
+.description-overlay {
+    color: #8e949e;
+}
+
+.btn-main{
+    font-weight: 600;
+}
+
+.services-title {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.services-text {
+    color: #8e949e;
+    width: 40%;
+    text-align: center;
+}
+
+.card {
+  width: 19rem;
+  transform: translateY(60px);
+  transition: all 0.7s;
+  padding: 2rem 0rem;
+}
+
+
+.card-text {
+    color: #8e949e;
+}
+
+.b-text {
+    color: #8e949e;
+    border-color: 1px solid #8e949e;
+}
+
+
+
+@media screen and (max-width: 36rem) {
+
+    .image-core {
+        display: block;
+        position: relative;		
+    }
+    
+    .text-overlay {
+        position: absolute;
+        text-align: center;
+        font-weight: 500;
+        width: 100%;
+        padding: 2rem 0.50rem;
+        transform: translateY(10px);
+        margin: 0rem auto;
+    }
+    
+    .main-title {
+        text-align: center;
+        color: #ffffff;
+        font-size: 1.20rem;
+        font-weight: 700;
+    }
+
+    .description-overlay {
+        color: #ffffff;
+        font-size: 1rem;
+    }
+
+    .services-title {
+        color: #ffffff;
+        font-size: 1.10rem;
+        font-weight: 600;
+    }
+    
+    .services-text {
+        color: #8e949e;
+        width: 40%;
+        text-align: center;
+        font-size: 1rem;
+    }    
+
+    .card {
+        width: 19rem;
+        transform: translateY(60px);
+        transition: all 0.7s;
+        padding: 2rem 0rem;
+        margin: 0rem auto;
+      }   
+      
+      
+    .card-text .card-title {
+        font-size: 1rem;
+    }  
+    
+}

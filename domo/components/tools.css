@@ -3,20 +3,22 @@
     background-color: #3871ff;
     min-height: 60vh;
     margin: 0px;
-    padding-top: 5rem;
+    padding-top: 8rem;
 }
 
 .tools-title {
     color: #ffffff;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
+    letter-spacing: 1px;
 }
 
 .tools-description {
     padding-top: 1rem;
-    font-size: 22px;
+    font-size: 20px;
     color: #9bb8ff;
     padding-right: 30%;
+    letter-spacing: 1px;
 }
 
 .icon-tools {

@@ -1,25 +1,29 @@
-import { Inter } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
-//import bootstrap from 'bootstrap';
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
+
 
 // export default function MyApp({ Component, pageProps }) {
 // return <Component {...pageProps} />
 // }
 
-const inter = Inter({ subsets: ["latin"] });
+
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  weight: ['400','500','600','700','800'],
+})
 
 export const metadata = {
-  title: "Demo Domo Test",
-  description: "",
+  title: "Domo Test",
+  description: "Test frontend for Domo agency",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={montserrat.className}>{children}</body>
     </html>
   );
 }
