@@ -1,0 +1,18 @@
+.sponsors{
+    min-height: 50vh;
+    text-transform: uppercase;
+    /* display: flex; */
+    /* flex-direction: column; */
+    text-align: center;
+    /* padding-top: 8rem; */
+}
+
+.sponsors img {
+    width: 100%;
+}
+
+.sponsors-title {
+    color: #7f7f7f;
+    font-size: 12px;
+    font-weight: 600;
+}
