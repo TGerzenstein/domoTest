@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Demo Domo Test",
-  description: "Next app",
+  description: "",
 };
 
 export default function RootLayout({ children }) {
