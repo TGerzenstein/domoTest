@@ -1,8 +1,8 @@
 
 .footer {
     background-color: #283345;
-    padding-top: 180px;
-    padding-bottom: 40px;
+    padding-top: 11.25rem;
+    padding-bottom: 2.5rem;
 }
 
 .nav-link {
@@ -11,7 +11,7 @@
 
 .footer h2{
     color: #ffffff;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .footer-text {
@@ -21,7 +21,7 @@
 }
 
 li {
-    margin: 0;
+    margin: 0rem;
     text-decoration: none;
     list-style-type: none;
     font-weight: 500;
@@ -41,13 +41,13 @@ li {
 @media (max-width: 576px) {
 
     .footer {
-        padding: 20px;
+        padding: 1.25rem;
     }
 
     .footer h2{
         padding-top: 4rem;
         color: #ffffff;
-        font-size: 18px;
+        font-size: 1.125rem;
     }
     
     .footer-text {
@@ -58,17 +58,17 @@ li {
 
 }
 
-/* Estilos para tabletas (small y medium) */
+/* Estilos para tablets (small y medium) */
 @media (min-width: 576px) and (max-width: 991.98px) {
 
    .footer-text {
        color: #9399a2;
        width: 100%;
-       padding-bottom: 5px;
+       padding-bottom: 0.3125rem;
     }
 
     .icons-socialMedia {
         color: #9399a2; 
-        margin-bottom: 25px;
+        margin-bottom: 1.5625rem;
     }
 }
