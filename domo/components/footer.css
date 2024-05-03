@@ -6,7 +6,7 @@
 }
 
 .nav-link {
-    color: #848a95;
+    color: #9399a2;
 }
 
 .footer h2{
@@ -15,14 +15,21 @@
 }
 
 .footer-text {
-    color: #848a95;
+    color: #9399a2;
     width: 70%;
+    font-weight: 500;
 }
 
 li {
     margin: 0;
     text-decoration: none;
     list-style-type: none;
+    font-weight: 500;
+}
+
+.icons-socialMedia {
+    color: #9399a2;
+    
 }
 
 /* Media queries */
