@@ -31,6 +31,9 @@ li {
     color: #9399a2; 
 }
 
+.icons-t:hover { 
+    color: #ffffff;
+}
 
 /* Media queries */
 /* Estilos para dispositivos móviles */

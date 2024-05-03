@@ -18,12 +18,12 @@ function Footer() {
                     in developing innovative solutions tailored to meet our clients 
                     unique needs, leveraging cutting-edge.
                     </p>
-                <div className='icons-socialMedia'>
-                  <FontAwesomeIcon className='pe-3' icon={faTwitter} />
-                  <FontAwesomeIcon className='pe-3' icon={faGlobe} />
-                  <FontAwesomeIcon className='pe-3' icon={faFacebook} />
-                  <FontAwesomeIcon icon={faInstagram} />  
-                </div>    
+                    <div className='icons-socialMedia'>
+                      <a href="https://twitter.com" rel="noopener noreferrer" className='icons-t'><FontAwesomeIcon className='pe-3' icon={faTwitter} /></a>
+                      <a href="http://www.domo.com.ar/" rel="noopener noreferrer" className='icons-t'><FontAwesomeIcon className='pe-3' icon={faGlobe} /></a>
+                      <a href="https://www.facebook.com" rel="noopener noreferrer" className='icons-t'><FontAwesomeIcon className='pe-3' icon={faFacebook} /></a>
+                      <a href="https://www.instagram.com/" rel="noopener noreferrer" className='icons-t'><FontAwesomeIcon icon={faInstagram} /></a>
+                    </div>    
                 </div>
                 <div className="col-12 col-sm-6 col-md-3 col-lg-2 col-xl-2">
                     <h2>Sitemap</h2>
