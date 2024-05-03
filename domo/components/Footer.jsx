@@ -14,13 +14,14 @@ function Footer() {
             <div className="row">
                 <div className="col-12 col-sm-6 col-md-3 col-lg-6 col-xl-6">
                     <h2>complet labs</h2>
-                    <p className="footer-text pt-3">Our software company specializes 
-                    in developing innovative solutions tailored to meet our clients 
-                    unique needs, leveraging cutting-edge.
+                    <p className="footer-text pt-3">
+                      Created by Tatiana Gerzenstein -
+                      Frontend developer -
+                      Email: tatigerzens@gmail.com 
                     </p>
                     <div className='icons-socialMedia'>
                       <a href="https://twitter.com" rel="noopener noreferrer" className='icons-t'><FontAwesomeIcon className='pe-3' icon={faTwitter} /></a>
-                      <a href="http://www.domo.com.ar/" rel="noopener noreferrer" className='icons-t'><FontAwesomeIcon className='pe-3' icon={faGlobe} /></a>
+                      <a href="https://tatianagerzenstein.vercel.app/" rel="noopener noreferrer" className='icons-t'><FontAwesomeIcon className='pe-3' icon={faGlobe} /></a>
                       <a href="https://www.facebook.com" rel="noopener noreferrer" className='icons-t'><FontAwesomeIcon className='pe-3' icon={faFacebook} /></a>
                       <a href="https://www.instagram.com/" rel="noopener noreferrer" className='icons-t'><FontAwesomeIcon icon={faInstagram} /></a>
                     </div>    
