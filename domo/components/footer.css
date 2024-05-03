@@ -28,13 +28,14 @@ li {
 }
 
 .icons-socialMedia {
-    color: #9399a2;
-    
+    color: #9399a2; 
 }
 
-/* Media queries */
 
-@media screen and (max-width: 36rem) {
+/* Media queries */
+/* Estilos para dispositivos móviles */
+
+@media (max-width: 576px) {
 
     .footer {
         padding: 20px;
@@ -47,9 +48,24 @@ li {
     }
     
     .footer-text {
-        color: #848a95;
+        color: #9399a2;
         width: 70%;
         font-size: 16px;
     }
 
+}
+
+/* Estilos para tabletas (small y medium) */
+@media (min-width: 576px) and (max-width: 991.98px) {
+
+   .footer-text {
+       color: #9399a2;
+       width: 100%;
+       padding-bottom: 5px;
+    }
+
+    .icons-socialMedia {
+        color: #9399a2; 
+        margin-bottom: 25px;
+    }
 }

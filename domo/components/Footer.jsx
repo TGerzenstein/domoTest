@@ -12,7 +12,7 @@ function Footer() {
     <section className="footer">
         <div className="container">
             <div className="row">
-                <div className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                <div className="col-12 col-sm-6 col-md-3 col-lg-6 col-xl-6">
                     <h2>complet labs</h2>
                     <p className="footer-text pt-3">Our software company specializes 
                     in developing innovative solutions tailored to meet our clients 
@@ -25,7 +25,7 @@ function Footer() {
                   <FontAwesomeIcon icon={faInstagram} />  
                 </div>    
                 </div>
-                <div className="col-12 col-sm-6 col-md-2 col-lg-2 col-xl-2">
+                <div className="col-12 col-sm-6 col-md-3 col-lg-2 col-xl-2">
                     <h2>Sitemap</h2>
                     <ul className="nav flex-column pt-3">
                       <li className="nav-item">
@@ -42,7 +42,7 @@ function Footer() {
                       </li>
                     </ul>
                 </div>
-                <div className="col-12 col-sm-6 col-md-2 col-lg-2 col-xl-2">
+                <div className="col-12 col-sm-6 col-md-3 col-lg-2 col-xl-2">
                     <h2>Case studies</h2>
                     <ul className="nav flex-column pt-3">
                       <li className="nav-item">
@@ -59,7 +59,7 @@ function Footer() {
                       </li>
                     </ul>
                 </div>
-                <div className="col-12 col-sm-6 col-md-2 col-lg-2 col-xl-2">
+                <div className="col-12 col-sm-6 col-md-3 col-lg-2 col-xl-2">
                     <h2>Contact</h2>
                     <ul className="nav flex-column pt-3">
                       <li className="nav-item">

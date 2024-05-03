@@ -67,6 +67,10 @@ header {
     font-weight: 600;
 }
 
+.first-btn {
+  margin-right: 1.40rem;
+}
+
 .arrow-right {
     font-size: 16px;
     font-weight: lighter;
@@ -115,6 +119,7 @@ header {
     color: #8e949e;
     border-color: 1px solid #8e949e;
 }
+
 
 /* Media queries */
 /* Estilos para dispositivos móviles */
@@ -174,6 +179,23 @@ header {
         font-size: 1rem;
     }
 
+    .button-main {
+      display: flex; 
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .btn-main{
+      font-weight: 400;
+      width: 60%;
+      margin: 0rem 0rem;
+    }
+
+    .first-btn {
+      margin-right: 0rem;
+    }
+    
+
     .services-title {
         color: #ffffff;
         font-size: 1.10rem;
@@ -200,3 +222,47 @@ header {
     }    
 }
 
+
+/* Estilos para tabletas (small y medium) */
+@media (min-width: 576px) and (max-width: 991.98px) {
+
+    .card {
+        margin: 0rem auto;
+    }
+
+    .text-overlay {
+        text-align: center;
+        font-weight: 500;
+        width: 100%;
+        padding: 1rem 0.50rem;
+        transform: translateY(2px);
+        margin: 0rem auto;
+    }
+    
+    .main-title {
+        text-align: center;
+        color: #ffffff;
+        font-size: 1.80rem;
+        font-weight: 600;
+    }
+
+    .description-overlay {
+        color: #ffffff;
+        font-size: 1.10rem;
+    }
+
+    .services-title {
+        color: #ffffff;
+        font-size: 1.40rem;
+        font-weight: 600;
+    }
+    
+    .services-text {
+        color: #8e949e;
+        width: 80%;
+        text-align: center;
+        font-size: 1.20rem;
+        font-weight: 500;
+    }    
+
+}

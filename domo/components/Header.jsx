@@ -39,9 +39,9 @@ function Header() {
                   are the essential elements of successful business relationship.
                   Ready for the journey?
                 </p>
-                <div>
+                <div className='button-main'>
                   <button type="button" 
-                          className="btn btn-outline-secondary me-3 rounded-1 btn-main px-4 my-3">Learn more</button>
+                          className="btn btn-outline-secondary rounded-1 btn-main first-btn px-4 my-3">Learn more</button>
                   <button type="button" className="btn btn-primary rounded-1 btn-main px-4 my-3">Our projects
                   <span className='px-2 arrow-right'><FontAwesomeIcon icon={faArrowRight} /></span>
                   </button>
@@ -59,7 +59,7 @@ function Header() {
 
           <div className="container d-flex justify-content-center">
             <div className="row">           
-              <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-4">
+              <div className="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
                 <div className="card rounded-0 px-4">
                   <div className="card-body text-center">
                     <FontAwesomeIcon icon={faBook} className='icons-services'/>
@@ -74,7 +74,7 @@ function Header() {
                   </div>
                 </div>
               </div>
-              <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-4">
+              <div className="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
                 <div className="card rounded-0 px-4">
                   <div className="card-body text-center">
                     <FontAwesomeIcon icon={faLaptop} className='icons-services'/>
@@ -88,7 +88,7 @@ function Header() {
                   </div>
                 </div>
               </div>
-              <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-4">
+              <div className="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
                 <div className="card rounded-0 px-4">
                   <div className="card-body text-center">
                     <FontAwesomeIcon icon={faPencil} className='icons-services'/>
