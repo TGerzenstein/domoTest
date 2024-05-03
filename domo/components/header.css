@@ -5,7 +5,6 @@ header {
     
 }
 
-
 header {
     background-image: url(https://domo-test-demo.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbackground.0968de3e.jpg&w=1920&q=75);
     background-repeat: no-repeat;
@@ -14,7 +13,7 @@ header {
 }
 
 .hero-image-company {
-    margin: 270px 0;
+    margin: 270px 0px;
 }
 
 .navbar {
@@ -29,8 +28,6 @@ header {
 
 .navbar-nav .nav-link.active {
     color: #8e949e;
-    display: flex;
-    justify-content: center;
 }
 
 .navbar-nav .nav-link:hover {
@@ -98,8 +95,20 @@ header {
 }
 
 /* Media queries */
+/* Estilos para dispositivos móviles */
 
-@media screen and (max-width: 36rem) {
+@media (max-width: 576px) {
+
+    header {
+        background-image: url(https://domo-test-demo.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbackground.0968de3e.jpg&w=1920&q=75);
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: auto 500px;
+    }
+
+    .hero-image-company {
+        margin: 270px 0px 120px;
+    }
 
     .navbar-brand {
         color: #ffffff;
@@ -121,19 +130,13 @@ header {
         color: #8e949e;
         background-color: #ffffff;
     }
-
-    .image-core {
-        display: block;
-        position: relative;		
-    }
     
     .text-overlay {
-        position: absolute;
         text-align: center;
         font-weight: 500;
         width: 100%;
-        padding: 2rem 0.50rem;
-        transform: translateY(20px);
+        padding: 1rem 0.50rem;
+        transform: translateY(2px);
         margin: 0rem auto;
     }
     
@@ -157,13 +160,12 @@ header {
     
     .services-text {
         color: #8e949e;
-        width: 40%;
+        width: 80%;
         text-align: center;
         font-size: 1rem;
     }    
 
     .card {
-        width: 19rem;
         transform: translateY(60px);
         transition: all 0.7s;
         padding: 2rem 0rem;
@@ -173,6 +175,6 @@ header {
       
     .card-text .card-title {
         font-size: 1rem;
-    }  
-    
+    }    
 }
+

@@ -1,7 +1,5 @@
 'use client'; 
 
-import Image from 'next/image';
-import background from '../public/assets/images/background.jpg';
 import './header.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -17,18 +15,18 @@ function Header() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="ms-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#link">Services</Nav.Link>
-                    <Nav.Link href="#link">Technology</Nav.Link>
-                    <Nav.Link href="#link">Case studies</Nav.Link>
-                    <Nav.Link href="#link">About</Nav.Link>
-                    <Nav.Link href="#link">Hire us</Nav.Link>
+                    <Nav.Link href="#home" className="mx-2">Home</Nav.Link>
+                    <Nav.Link href="#link" className="mx-2">Services</Nav.Link>
+                    <Nav.Link href="#link" className="mx-2">Technology</Nav.Link>
+                    <Nav.Link href="#link" className="mx-2">Case studies</Nav.Link>
+                    <Nav.Link href="#link" className="mx-2">About</Nav.Link>
+                    <Nav.Link href="#link" className="mx-2">Hire us</Nav.Link>
                   </Nav>
                 </Navbar.Collapse>
               </Container>
             </Navbar>
 
-          <div className='hero-image-company'>
+          <div className='hero-image-company' >
             <div className='container'>
               <div className="text-overlay">
                 <h1 className="main-title">We build beautiful and reliable web solutions</h1>
@@ -37,8 +35,8 @@ function Header() {
                   Ready for the journey?
                 </p>
                 <div>
-                  <button type="button" className="btn btn-outline-secondary me-3 rounded-1 btn-main px-4">Learn more</button>
-                  <button type="button" className="btn btn-primary rounded-1 btn-main px-4">Our projects</button>
+                  <button type="button" className="btn btn-outline-secondary me-3 rounded-1 btn-main px-4 my-3">Learn more</button>
+                  <button type="button" className="btn btn-primary rounded-1 btn-main px-4 my-3">Our projects</button>
                 </div>
               </div> 
             </div>
