@@ -20,11 +20,15 @@
     letter-spacing: 1px;
 }
 
-
 .card-contact {
     background-color:  #3871ff;
     color: #ffffff;
     border: none;
+    transition: all 0.1s ease-in-out;
+}
+
+.card-contact:hover {
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
 }
 
 .contact-body {
