@@ -4,6 +4,11 @@ import './header.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faBook } from '@fortawesome/free-solid-svg-icons';
+import { faLaptop } from '@fortawesome/free-solid-svg-icons';
+import { faPencil } from '@fortawesome/free-solid-svg-icons';
 
 
 function Header() {
@@ -35,8 +40,11 @@ function Header() {
                   Ready for the journey?
                 </p>
                 <div>
-                  <button type="button" className="btn btn-outline-secondary me-3 rounded-1 btn-main px-4 my-3">Learn more</button>
-                  <button type="button" className="btn btn-primary rounded-1 btn-main px-4 my-3">Our projects</button>
+                  <button type="button" 
+                          className="btn btn-outline-secondary me-3 rounded-1 btn-main px-4 my-3">Learn more</button>
+                  <button type="button" className="btn btn-primary rounded-1 btn-main px-4 my-3">Our projects
+                  <span className='px-2 arrow-right'><FontAwesomeIcon icon={faArrowRight} /></span>
+                  </button>
                 </div>
               </div> 
             </div>
@@ -52,10 +60,11 @@ function Header() {
           <div className="container d-flex justify-content-center">
             <div className="row">           
               <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-4">
-                <div class="card rounded-0 px-4">
-                  <div class="card-body">
-                    <h5 class="card-title text-center">Business and Product Concept</h5>
-                    <p class="card-text text-center pb-3 pt-2">Some quick example text to build 
+                <div className="card rounded-0 px-4">
+                  <div className="card-body text-center">
+                    <FontAwesomeIcon icon={faBook} className='icons-services'/>
+                    <h5 className="card-title text-center">Business and Product Concept</h5>
+                    <p className="card-text text-center pb-3 pt-2">Some quick example text to build 
                     on the card title and make up the bulk of the cards content.
                     Some quick example text to build 
                     on the card title and make up the bulk of the cards content.</p>
@@ -66,10 +75,11 @@ function Header() {
                 </div>
               </div>
               <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-4">
-                <div class="card rounded-0 px-4">
-                  <div class="card-body">
-                    <h5 class="card-title text-center">Web and Mobile Development</h5>
-                    <p class="card-text text-center pb-3 pt-2">Some quick example text to build on the card title 
+                <div className="card rounded-0 px-4">
+                  <div className="card-body text-center">
+                    <FontAwesomeIcon icon={faLaptop} className='icons-services'/>
+                    <h5 className="card-title text-center">Web and Mobile Development</h5>
+                    <p className="card-text text-center pb-3 pt-2">Some quick example text to build on the card title 
                     and make up the bulk of the cards content. Some quick example text to build on the card title 
                     and make up the bulk of the cards content.</p>
                     <div className="text-center">
@@ -79,10 +89,11 @@ function Header() {
                 </div>
               </div>
               <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-4">
-                <div class="card rounded-0 px-4">
-                  <div class="card-body">
-                    <h5 class="card-title text-center">UX and UI Design products innovative</h5>
-                    <p class="card-text text-center pb-3 pt-2">Some quick example text to build on 
+                <div className="card rounded-0 px-4">
+                  <div className="card-body text-center">
+                    <FontAwesomeIcon icon={faPencil} className='icons-services'/>
+                    <h5 className="card-title text-center">UX and UI Design products innovative</h5>
+                    <p className="card-text text-center pb-3 pt-2">Some quick example text to build on 
                     the card title and make up the bulk of the cards content. Some quick example text to build on the card title 
                     and make up the bulk of the cards content.</p>
                     <div className="text-center">

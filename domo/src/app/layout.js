@@ -12,7 +12,7 @@ config.autoAddCss = false
 
 const montserrat = Montserrat({
   subsets: ["latin"],
-  weight: ['400','500','600','700','800'],
+  weight: ['200','400','500','600','700','800'],
 })
 
 export const metadata = {
