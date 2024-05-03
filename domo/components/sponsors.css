@@ -6,7 +6,7 @@
 .sponsors-wrapper{
     margin-top: 80px;
     width: 100%;
-    margin-bottom: 280px;
+    margin-bottom: 50px;
 }
 
 .sponsors img {
@@ -20,11 +20,56 @@
     letter-spacing: 1px;
 }
 
+
+.card-contact {
+    background-color:  #3871ff;
+    color: #ffffff;
+    border: none;
+}
+
+.contact-body {
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+    padding-top: 0.50rem;
+    padding-left: 1.40rem;
+}
+
+.contact-title {
+    text-transform: none;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.contact-text {
+    text-transform: none;
+    line-height: 1.8;   
+    font-weight: 500; 
+    color: #f5f8ff;
+    width: 45%;
+    font-size: 16px;
+}
+
+.btn-contact {
+    color: #ffffff;
+    border-color: #ffffff;
+    padding-left: 1.40rem;
+    padding-right: 1.40rem;
+    font-weight: 500;
+    font-size: 16px;
+}
+
 /* Media queries */
 
 @media screen and (max-width: 36rem) {
 
     .sponsors img {
         padding: 0rem 0.50rem;
+    }
+
+    .card-contact {
+        background-color:  #3871ff;
+        color: #ffffff;
+        border-color: #3871ff;
+        margin-top: 10px;
     }
 }
