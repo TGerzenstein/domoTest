@@ -4,9 +4,9 @@
 }
 
 .sponsors-wrapper{
-    margin-top: 80px;
+    margin-top: 5rem;
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 }
 
 .sponsors img {
@@ -15,9 +15,9 @@
 
 .sponsors-title {
     color: #7f7f7f;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 600;
-    letter-spacing: 1px;
+    letter-spacing: 0.0625rem;
 }
 
 .card-contact {
@@ -40,7 +40,7 @@
 
 .contact-title {
     text-transform: none;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 
@@ -50,7 +50,7 @@
     font-weight: 500; 
     color: #f5f8ff;
     width: 45%;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .btn-contact {
@@ -59,13 +59,12 @@
     padding-left: 1.40rem;
     padding-right: 1.40rem;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 
 /* Media queries */
 /* Estilos para dispositivos móviles */
-
 @media (max-width: 576px) {
 
     .sponsors img {
@@ -76,11 +75,11 @@
         background-color:  #3871ff;
         color: #ffffff;
         border-color: #3871ff;
-        margin-top: 12px;
+        margin-top: 0.75rem;
     }
 
     .contact-title {
-        font-size: 18px;
+        font-size: 1.125rem;
         font-weight: 700;
     }
     
@@ -88,12 +87,12 @@
         line-height: 1.8;   
         color: #f5f8ff;
         width: 45%;
-        font-size: 16px;
+        font-size: 0.75rem;
     }
 }
 
 
-/* Estilos para tabletas (small y medium) */
+/* Estilos para tablets (small y medium) */
 @media (min-width: 576px) and (max-width: 991.98px) {
     
     .sponsors {
@@ -101,7 +100,7 @@
     }
 
     .card-contact {
-        margin-top: 12px;
+        margin-top: 0.75rem;
     }
 }
 

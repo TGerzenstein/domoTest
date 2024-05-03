@@ -1,25 +1,25 @@
 
 .tools {
     background-color: #3871ff;
-    min-height: 65vh;
-    margin: 0px;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    min-height: 40rem;
+    margin: 0rem;
+    padding-top: 9rem;
+    padding-bottom: 0rem;
 }
 
 .tools-title {
     color: #ffffff;
-    font-size: 26px;
+    font-size: 1.625rem;
     font-weight: 600;
-    letter-spacing: 1px;
+    letter-spacing: 0.0625rem;
 }
 
 .tools-description {
     padding-top: 1rem;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #9bb8ff;
     padding-right: 30%;
-    letter-spacing: 1px;
+    letter-spacing: 0.0625rem;
 }
 
 .icon-tools {
@@ -27,13 +27,13 @@
     font-size: 4rem;
     padding-right: 1.5rem;
     padding-left: 1.5rem;
-    width: 90px;
-    height: 90px;
+    width: 5.625rem;
+    height: 5.625rem;
 }
+
 
 /* Media queries */
 /* Estilos para dispositivos móviles */
-
 @media (max-width: 576px) {
 
     .tools-title {
@@ -62,24 +62,24 @@
         color: #ffffff;
         font-size: 4rem;
         padding-right: 3rem;
-        width: 50px;
-        height: 50px;
-        padding: 20px;
+        width: 3.125rem;
+        height: 3.125rem;
+        padding: 1.25rem;
     }
 }
 
-/* Estilos para tabletas (small y medium) */
+/* Estilos para tablets (small y medium) */
 @media (min-width: 576px) and (max-width: 991.98px) {
 
     .tools-title {
         color: #ffffff;
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: 500;
         text-align: center;
     }
     
     .tools-description {
-        font-size: 18px;
+        font-size: 1.125rem;
         color: #9bb8ff;
         text-align: center;
         font-weight: 500;
@@ -92,16 +92,16 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      padding-top: 100px;
+      padding-top: 6.25rem;
     }
 
     .icon-tools {
       color: #ffffff;
       font-size: 4rem;
       padding-right: 3rem;
-      width: 50px;
-      height: 50px;
-      padding: 20px;
+      width: 3.125rem;
+      height: 3.125rem;
+      padding: 1.25rem;
     }
 }
 

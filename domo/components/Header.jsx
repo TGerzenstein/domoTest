@@ -1,6 +1,6 @@
 'use client'; 
 
-import './header.css';
+import css from './header.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -31,22 +31,24 @@ function Header() {
               </Container>
             </Navbar>
 
-          <div className='hero-image-company' >
-            <div className='container'>
-              <div className="text-overlay">
-                <h1 className="main-title">We build beautiful and reliable web solutions</h1>
-                <p className="description-overlay py-2">We strongly believe that communication trust and transparency
-                  are the essential elements of successful business relationship.
-                  Ready for the journey?
-                </p>
-                <div className='button-main'>
-                  <button type="button" 
-                          className="btn btn-outline-secondary rounded-1 btn-main first-btn px-4 my-3">Learn more</button>
-                  <button type="button" className="btn btn-primary rounded-1 btn-main px-4 my-3">Our projects
-                  <span className='px-2 arrow-right'><FontAwesomeIcon icon={faArrowRight} /></span>
-                  </button>
-                </div>
-              </div> 
+          <div className='hero-image-company'>
+            <div className={css.header}>
+              <div className='container'>
+                <div className="text-overlay">
+                  <h1 className="main-title">We build beautiful and reliable web solutions</h1>
+                  <p className="description-overlay py-2">We strongly believe that communication trust and transparency
+                    are the essential elements of successful business relationship.
+                    Ready for the journey?
+                  </p>
+                  <div className='button-main'>
+                    <button type="button" 
+                            className="btn btn-outline-secondary rounded-1 btn-main first-btn px-4 my-3">Learn more</button>
+                    <button type="button" className="btn btn-primary rounded-1 btn-main px-4 my-3">Our projects
+                    <span className='px-2 arrow-right'><FontAwesomeIcon icon={faArrowRight} /></span>
+                    </button>
+                  </div>
+                </div> 
+              </div>
             </div>
           </div>
 

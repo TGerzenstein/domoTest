@@ -1,19 +1,18 @@
 
 header {
     background-color: #273345;
-    color: #8e949e;
-    
+    color: #8e949e;  
 }
 
 header {
-    background-image: url(https://domo-test-demo.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbackground.0968de3e.jpg&w=1920&q=75);
+    background-image: url('../public/assets/images/background.jpg');
     background-repeat: no-repeat;
     background-position: top right;
-    background-size: auto 900px;
+    background-size: auto 56.25rem;
 }
 
 .hero-image-company {
-    margin: 270px 0px;
+    margin: 16.875rem 0rem;
 }
 
 .navbar {
@@ -51,8 +50,7 @@ header {
 
 .text-overlay {
     display: block;
-   /* position: absolute;*/
-    bottom: 240px;
+    bottom: 15rem;
     left: 0;
     width: 50%;
     font-size: 1.10rem;
@@ -72,13 +70,14 @@ header {
 }
 
 .arrow-right {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: lighter;
 }
 
 .services-title {
     color: #ffffff;
     font-weight: 600;
+    font-size: 1.625rem;
 }
 
 .services-text {
@@ -86,8 +85,8 @@ header {
     width: 40%;
     text-align: center;
     font-weight: 700;
-    font-size: 18px;
-    padding-top: 10px;
+    font-size: 1.125rem;
+    padding-top: 0.625rem;
     line-height: 1.8;
     margin-bottom: 0rem;
 }
@@ -109,18 +108,17 @@ header {
 .icons-services {
     color: white;
     background-color: #3871ff;
-    width: 40px;
-    height: 40px;
-    padding: 16px;
-    margin: 10px;
-    border: 2px solid white;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 1rem;
+    margin: 0.625rem;
+    border: 0.125rem solid white;
     border-radius: 50%;
     transition: all 0.2s ease-in;
 }
 
 .b-text {
     color: #8e949e;
-    border-color: 1px solid #8e949e;
 }
 
 
@@ -130,14 +128,14 @@ header {
 @media (max-width: 576px) {
 
     header {
-        background-image: url(https://domo-test-demo.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbackground.0968de3e.jpg&w=1920&q=75);
+        background-image: url('../public/assets/images/background.jpg');
         background-repeat: no-repeat;
         background-position: top right;
-        background-size: auto 500px;
+        background-size: auto 31.25rem;
     }
 
     .hero-image-company {
-        margin: 270px 0px 120px;
+        margin: 16.875rem 0rem 7.5rem;
     }
 
     .navbar-brand {
@@ -221,14 +219,13 @@ header {
         margin: 0rem auto;
       }   
       
-      
     .card-text .card-title {
         font-size: 1rem;
     }    
 }
 
 
-/* Estilos para tabletas (small y medium) */
+/* Estilos para tablets (small y medium) */
 @media (min-width: 576px) and (max-width: 991.98px) {
 
     .card {
@@ -269,5 +266,4 @@ header {
         font-size: 1.20rem;
         font-weight: 500;
     }    
-
 }
